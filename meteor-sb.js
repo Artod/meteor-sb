@@ -11,10 +11,10 @@ if (Meteor.isClient) {
   
     Template.body.events({
       "submit .new-task": function (event) {
-        // This function is called when the new task form is submitted
+        // This function is ncalled when the new task form is submittedff
 
         var text = event.target.text.value;
-
+var ddddd;
         Tasks.insert({
           text: text,
           createdAt: new Date() // current time
